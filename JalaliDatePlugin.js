@@ -267,7 +267,7 @@
 
             if (!me.disabled) {
                 me.todayBtn.setDisabled(disableToday);
-                me.todayKeyListener.setDisabled(disableToday);
+                // me.todayKeyListener.setDisabled(disableToday);
             }
         }
 
@@ -284,7 +284,7 @@
                 me.todayElSpan = Ext.DomHelper.append(cell.firstChild, {
                     tag: 'span',
                     cls: Ext.baseCSSPrefix + 'hide-clip',
-                    html: me.todayText
+                    //html: me.todayText
                 }, true);
             }
             if (value === newDate) {
